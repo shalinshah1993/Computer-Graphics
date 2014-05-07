@@ -1,7 +1,11 @@
+"""
+#####################################
 ## IT 441 Computer Graphics
 ## Instructor:Nitin Raje
 ## Implemented By: Shalin Shah
 ## ID : 201101179
+#####################################
+"""
 
 import string
 import math
@@ -233,7 +237,7 @@ def display():
     gluSphere(quadratic, .2, 64, 64)
 
     glTranslatef(0.4,0.0,0)
-    gluSphere(quadratic, .2, 64, 64)
+    gluSphere(quadratic, 0.2, 64, 64)
     glPopMatrix()
   
 #right arm     
